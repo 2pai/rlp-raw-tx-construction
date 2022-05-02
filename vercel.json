@@ -7,6 +7,14 @@
         {
             "source": "/goerli/:txHash",
             "destination": "api/goerli.js"
+        },
+        {
+            "source": "/mainnet/:txHash",
+            "destination": "api/mainnet.js"
+        },
+        {
+            "source": "/ens/:address",
+            "destination": "api/ens.js"
         }
     ]
 }
